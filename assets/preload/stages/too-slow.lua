@@ -1,4 +1,10 @@
 function onCreate()
+	makeLuaText('Watermarc', "PORT BY SONIC12649S ", 0, 2, 700); 
+	setTextSize('Watermarc', 20);
+	setObjectCamera('Watermarc', 'other');
+	addLuaText('Watermarc', true);
+
+function onCreate()
     makeLuaSprite('TooSlowBG','PolishedP1/BGSky',-800,-550)
     scaleObject('TooSlowBG',1.305,1.305)
     setScrollFactor('TooSlowBG',0.9,0.9)
