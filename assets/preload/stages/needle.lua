@@ -1,4 +1,14 @@
 function onCreate()
+
+	makeLuaText('Watermarc', "PORT BY SONIC12649S ", 0, 2, 700); 
+
+	setTextSize('Watermarc', 20);
+
+	setObjectCamera('Watermarc', 'other');
+
+	addLuaText('Watermarc', true);
+
+function onCreate()
     makeLuaSprite('NeedleSky','needlemouse/sky',-900,-500)
     scaleObject('NeedleSky',1.35,1.35)
     setScrollFactor('NeedleSky',0.8,0.8)
