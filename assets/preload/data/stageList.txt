@@ -1,9 +1,7 @@
-stage
-spooky
-philly
-limo
-mall
-mallEvil
-school
-schoolEvil
-tank
+starved
+fuckles
+hog
+fatality
+needle
+slash
+testing
