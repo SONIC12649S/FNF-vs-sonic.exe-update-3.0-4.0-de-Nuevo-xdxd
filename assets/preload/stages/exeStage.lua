@@ -1,10 +1,4 @@
 function onCreate()
-	makeLuaText('Watermarc', "PORT BY SONIC12649S ", 0, 2, 700); 
-	setTextSize('Watermarc', 20);
-	setObjectCamera('Watermarc', 'other');
-	addLuaText('Watermarc', true);
-
-function onCreate()
     makeLuaSprite('FakerExeBG','exeBg/sky',-800,-500)
     scaleObject('FakerExeBG',1.3,1.3)
     setScrollFactor('FakerExeBG',0.9,0.9)

@@ -1,10 +1,4 @@
 function onCreate()
-	makeLuaText('Watermarc', "PORT BY SONIC12649S ", 0, 2, 700); 
-	setTextSize('Watermarc', 20);
-	setObjectCamera('Watermarc', 'other');
-	addLuaText('Watermarc', true);
-
-function onCreate()
 	makeLuaSprite('StarvedLight','starved/light',-400,-300)
 	scaleObject('StarvedLight',1.45,1.45)
 	addLuaSprite('StarvedLight')
