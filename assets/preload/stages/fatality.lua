@@ -1,4 +1,10 @@
 function onCreate()
+	makeLuaText('Watermarc', "PORT BY SONIC12649S ", 0, 2, 700); 
+	setTextSize('Watermarc', 20);
+	setObjectCamera('Watermarc', 'other');
+	addLuaText('Watermarc', true);
+
+function onCreate()
     makeAnimatedLuaSprite('fatalityBg1','fatal/launchbase',-1200,-900)
     addAnimationByPrefix('fatalityBg1','moviment','idle',14,true)
     setProperty('fatalityBg1.antialiasing',false)
